@@ -1,0 +1,203 @@
+.android-large {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .android-large .div {
+    background: linear-gradient(180deg, rgb(129, 114, 140) 0%, rgb(88, 59, 111) 5.2%, rgb(61, 41, 77) 97.14%);
+    background-color: rgba(255, 255, 255, 1);
+    height: 1410px;
+    overflow: hidden;
+    position: relative;
+    width: 360px;
+  }
+  
+  .android-large .overlap {
+    height: 11px;
+    left: 48px;
+    position: absolute;
+    top: 565px;
+    width: 263px;
+  }
+  
+  .android-large .not-played {
+    height: 1px;
+    left: 139px;
+    position: absolute;
+    top: 7px;
+    width: 124px;
+  }
+  
+  .android-large .played {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 139px;
+  }
+  
+  .android-large .played-icon {
+    background-color: #d9d9d9;
+    border-radius: 5.5px;
+    height: 11px;
+    left: 131px;
+    position: absolute;
+    top: 0;
+    width: 11px;
+  }
+  
+  .android-large .overlap-group {
+    background-image: url(./queen-a-night-at-the-opera-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 475px;
+    left: -58px;
+    position: absolute;
+    top: -41px;
+    width: 475px;
+  }
+  
+  .android-large .queen-a-night-at-the {
+    height: 252px;
+    left: 118px;
+    object-fit: cover;
+    position: absolute;
+    top: 111px;
+    width: 249px;
+  }
+  
+  .android-large .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 563px;
+  }
+  
+  .android-large .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 323px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 559px;
+  }
+  
+  .android-large .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Kadwa-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 79px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 488px;
+  }
+  
+  .android-large .overlap-2 {
+    height: 672px;
+    left: 21px;
+    position: absolute;
+    top: 717px;
+    width: 318px;
+  }
+  
+  .android-large .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Kadwa-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 115px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .android-large .rectangle {
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    height: 621px;
+    left: 0;
+    position: absolute;
+    top: 51px;
+    width: 318px;
+  }
+  
+  .android-large .lyrics {
+    color: #000000;
+    font-family: "Kadwa-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 81px;
+    width: 287px;
+  }
+  
+  .android-large .vector-wrapper {
+    background-color: #eaeaea;
+    border-radius: 35px;
+    height: 70px;
+    left: 145px;
+    position: absolute;
+    top: 610px;
+    width: 70px;
+  }
+  
+  .android-large .vector {
+    height: 27px;
+    left: 22px;
+    position: absolute;
+    top: 21px;
+    width: 27px;
+  }
+  
+  .android-large .backwards-wrapper {
+    background-color: #eaeaea;
+    border-radius: 30px;
+    height: 60px;
+    left: 49px;
+    position: absolute;
+    top: 615px;
+    width: 60px;
+  }
+  
+  .android-large .backwards {
+    height: 27px;
+    left: 17px;
+    position: absolute;
+    top: 16px;
+    width: 27px;
+  }
+  
+  .android-large .forward-wrapper {
+    background-color: #eaeaea;
+    border-radius: 30px;
+    height: 60px;
+    left: 251px;
+    position: absolute;
+    top: 615px;
+    width: 60px;
+  }
+  
+  .android-large .forward {
+    height: 27px;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    width: 27px;
+  }
