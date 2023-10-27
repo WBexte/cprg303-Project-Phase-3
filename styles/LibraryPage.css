@@ -1,8 +1,14 @@
 body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+.page-container {
     width: 414px;
     height: 896px;
     position: relative;
     border: 1px solid black;
+    background: linear-gradient(360deg, rgba(65,16,73,1) 0%, rgba(128,51,135,1) 42%, rgba(186,104,226,1) 100%);
 }
 
 ul {
@@ -17,8 +23,11 @@ p {
     text-align: center;
 }
 
+p, h3, h1, a {
+    color: aliceblue;
+}
+
 .top {
-    background-color: bisque;
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
@@ -31,6 +40,7 @@ p {
 
 .material-symbols-outlined {
   margin: 5px;
+  color: aliceblue;
 }
 
 .bottom ul {
@@ -73,6 +83,7 @@ a {
 
 .song-title h3, .song-title p {
     margin: 0px 0px 0px 5px;
+    text-align: left;
 }
 
 footer {
@@ -86,3 +97,19 @@ footer nav {
     display: flex;
     justify-content: space-around;
 }
+
+.top-nav li {
+    background-color: blueviolet;
+    border: 1px solid #e185e0;
+    border-radius: 15px;
+}
+
+.top-nav li a {
+    padding: 5px 10px;
+    color: aliceblues;
+}
+
+.top-nav li:hover {
+    background-color: #e185e0;
+}
+
